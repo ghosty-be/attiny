@@ -1,6 +1,6 @@
 /*
 Important notes:
-* This sketch works for attiny85, compiling for atting45 said that it has not enough space?
+* This sketch works for attiny85, compiling for attiny45 said that it has not enough space?
 * First upload 8MHz boot loader:
 Tools → Board → ATtiny85 (8MHz Internal)
 Tools → Burn Bootloader
