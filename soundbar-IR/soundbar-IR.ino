@@ -1,13 +1,13 @@
 /*
-Important notes:
-* This sketch works for attiny85, compiling for attiny45 said that it has not enough space?
-* First upload 8MHz boot loader:
-Tools → Board → ATtiny85 (8MHz Internal)
-Tools → Burn Bootloader
+  Important notes:
+  * This sketch works for attiny85, compiling for attiny45 said that it has not enough space?
+  * First upload 8MHz boot loader:
+  Tools → Clock Source (only set on bootload) → 8MHz (Internal)
+  Tools → Burn Bootloader
 
-* Your IR led should use pin 0 or 1 as those are PWM.
-Connect IR led between I/O pin 1 (physical pin number 6) and GND
-No series resistor is required as this is switched using PWM
+  * Your IR led should use pin 0 or 1 as those are PWM.
+  Connect IR led between I/O pin 1 (physical pin number 6) and GND
+  No series resistor is required as this is switched using PWM
 */
 
 #include <IRremote.h>
